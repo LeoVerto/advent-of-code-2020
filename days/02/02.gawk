@@ -19,15 +19,6 @@
     if ((pos1 || pos2) && !(pos1 && pos2)) {
         k++
     }
-
-    # Previous attempt, please ignore. May be useful for future gawk scripts.
-    # regexp = "^" a[3] "{" a[1] "," a[2] "}$"
-    # print regexp chars
-    # where = match(a[4], regexp)
-    # if (where != 0) {
-    #     print $0
-    #     j++
-    # }
 }
 END {
     print j
