@@ -1,0 +1,7 @@
+{"((([bie]yr|hgt|[he]cl|[pc]id):.*\s){8})|((([bie]yr|hgt|[he]cl|pid):.*\s){7})(?=\n)" "I"}
+
+{"[^I]" ""}
+{"IIIII" "V"}
+{"VV" "X"}
+{"XXXXX" "L"}
+{"LL" "C"}

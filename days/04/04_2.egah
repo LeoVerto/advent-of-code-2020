@@ -1,0 +1,16 @@
+{"cid:\d+" "cid:✓"}
+{"byr:(19[2-9]\d|200[0-2])" "byr:✓"}
+{"iyr:(20(1\d|20))" "iyr:✓"}
+{"eyr:(20(2\d|30))" "eyr:✓"}
+{"hgt:(1([5-8]\d|9[0-3])cm|(59|6\d|7[0-6])in)" "hgt:✓"}
+{"hcl:#[0-9a-f]{6}" "hcl:✓"}
+{"ecl:(amb|blu|brn|gry|grn|hzl|oth)" "ecl:✓"}
+{"pid:\d{9}" "pid:✓"}
+
+{"((([bie]yr|hgt|[he]cl|[pc]id):✓\s){8})|((([bie]yr|hgt|[he]cl|pid):✓\s){7})(?=\n)" "I"}
+
+{"[^I]" ""}
+{"IIIII" "V"}
+{"VV" "X"}
+{"XXXXX" "L"}
+{"LL" "C"}
